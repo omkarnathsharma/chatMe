@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "client.js",
-
+  "scripts": {
+    "start": "node index.js"
+},
   "author": "abon india",
   "license": "ISC",
   "dependencies": {
