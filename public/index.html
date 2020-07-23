@@ -1,0 +1,20 @@
+<html>
+  <head>
+    <title>Socket.IO chat</title>
+</head>
+<body>
+
+    <div id="selectRoom">
+        <label >Enter Room No</label>
+        <input id="roomNo" type="text"/>
+        <button id="btnGoRoom">Gi</button>
+    </div>
+    <div id="consultingRoom" style="display: none;">
+      <video id="localVideo" autoplay></video>
+    </div>
+
+    
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="bundle.js"></script>
+</body>
+</html>
