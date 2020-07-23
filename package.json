@@ -1,0 +1,20 @@
+{
+  "name": "meeting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "client.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "watch": "npx watchify ./public/client.js -o ./public/bundle.js"
+},
+  "author": "abon india",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "watchify": "^3.11.1"
+  }
+}
