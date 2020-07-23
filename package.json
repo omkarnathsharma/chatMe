@@ -3,10 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "client.js",
-  "scripts": {
-    "start": "nodemon index.js",
-    "watch": "npx watchify ./public/client.js -o ./public/bundle.js"
-},
+
   "author": "abon india",
   "license": "ISC",
   "dependencies": {
