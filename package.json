@@ -4,8 +4,7 @@
   "description": "meeting",
   "main": "main.js",
   "scripts": {
-    "start": "nodemon index.js",
-    "watch": "npx watchify ./public/main.js -o ./public/bundle.js"
+    "start": "node index.js"
   },
   "author": "abon india",
   "license": "ISC",
