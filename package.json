@@ -1,15 +1,16 @@
 {
-  "name": "meeting",
-  "version": "1.0.0",
-  "description": "",
-  "main": "client.js",
+  "name": "confrence",
+  "version": "1.0.2",
+  "description": "meeting",
+  "main": "main.js",
   "scripts": {
     "start": "node index.js"
-},
+  },
   "author": "abon india",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
+    "rtcmulticonnection": "^3.7.0",
     "socket.io": "^2.3.0"
   },
   "devDependencies": {
