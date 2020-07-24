@@ -4,17 +4,29 @@
 </head>
 <body>
 
-    <div id="selectRoom">
-        <label >Enter Room No</label>
-        <input id="roomNo" type="text"/>
-        <button id="btnGoRoom">Gi</button>
-    </div>
-    <div id="consultingRoom" style="display: none;">
-      <video id="localVideo" autoplay></video>
-    </div>
-
+    <h1>
+        Video + Screen Sharing using RTCMultiConnection
+        <p class="no-mobile">
+          Multi-user (many-to-many) video chat using mesh networking model.
+        </p>
+        <p>
+          Add and remove screen anytime and multiple times!
+        </p>
+      </h1>
     
-  <script src="/socket.io/socket.io.js"></script>
+      <section class="make-center">
+        <p style="margin: 0; padding: 0; padding-bottom: 20px;">
+          <input type="text" id="room-id" value="abcdef" autocorrect=off autocapitalize=off size=20>
+          <button id="open-room">Open Room</button>
+          <button id="join-room">Join Room</button>
+          <button id="share-screen" disabled>Share Your Screen</button>
+        </p>
+    
+        <div id="videos-container" style="margin: 20px 0;"></div>
+      </section>
+      <script src="/socket.io/socket.io.js"></script>
+      <script src="getHTMLMediaElement.js"></script>
+  
   <script src="bundle.js"></script>
 </body>
 </html>

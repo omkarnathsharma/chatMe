@@ -1,18 +1,20 @@
 {
-  "name": "meeting",
+  "name": "confrence",
   "version": "1.0.0",
-  "description": "",
-  "main": "client.js",
+  "description": "meeting",
+  "main": "main.js",
   "scripts": {
-    "start": "node index.js"
-},
+    "start": "nodemon index.js",
+    "watch": "npx watchify ./public/main.js -o ./public/bundle.js"
+  },
   "author": "abon india",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1",
+    "rtcmulticonnection": "^3.7.0",
     "socket.io": "^2.3.0"
   },
   "devDependencies": {
+    "express": "^4.17.1",
     "nodemon": "^2.0.4",
     "watchify": "^3.11.1"
   }
